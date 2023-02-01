@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+ul
+{
+    list-style-type: none;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 390px, 350px;
+    overflow: hidden;
+    background-color:rgb(39, 35, 35);
+    width: 66.6%;
+    height: 70px;
+    font-family: Verdana;
+}
+
+li
+{
+    float:left;
+    text-decoration: inherit;
+    text-decoration-color:saddlebrown;
+}
+
+li a
+{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 31.5px;
+    text-decoration: black;
+}
+
+li a:hover
+{
+    background-color:rgb(165, 135, 235);
+    text-decoration:grey;
+}
+
+.title h1
+{
+    font-size: 30pt;
+    color: white;
+    font-family: Verdana;
+}
+
+.title h2
+{
+    font-size: 20pt;
+    color: white;
+    font-family: Verdana;
+}
+.title h3
+{
+    font-size: 12pt;
+    color: beige;
+    font-family: Verdana;
+}
+
+div.about-me
+{
+  font-size: 20pt;
+  color: beige;
+  font-family: Verdana;
+}
+
+table
+{ 
+  border-collapse: collapse; 
+  border-color: black;
+  font-size: 20px;
+}
+
+tr,td,th
+{
+  border: 1px solid;
+  padding: 4px;
+}
+
+tr
+{
+  background-color: grey;
+}
+
+tr:nth-child(even)
+{
+  background-color: gainsboro;
+}  
+
+tr:hover
+{
+  background-color: rgb(81, 141, 84);
+  transition-delay: inherit;
+}
+
+div.slider-experience
+{
+  float: left;
+  width: 100%;
+  height: 590px;
+  background-color:grey;
+  color: rgb(226, 24, 24);
+}
+
+div.kotak1
+{
+  float: left;
+  width: 25%;
+  height: 450px;
+  background-color:whitesmoke;
+}
+
+div.kotak2
+{
+  float: left;
+  width: 25%;
+  height: 450px;
+  background-color:whitesmoke;
+}
+
+div.kotak3
+{
+  float: left;
+  width: 25%;
+  height: 450px;
+  background-color:whitesmoke;
+}
+
+div.kotak4
+{
+  float: left;
+  width: 25%;
+  height: 450px;
+  background-color:whitesmoke;
+}
+
+div.biodata
+{
+  float: center;
+  background-color: none;
+  font-size: 12px;
+}
+
+div.catguitar
+{
+  width: 30%;
+  height: 100px;
+  position: absolute;
+  top: 52%;
+  left: 5%;
+  
+}
+
+div.catguitar2
+{
+  width: 30%;
+  height: 100px;
+  position: absolute;
+  top: 62%;
+  right: 5%;
+}
+
+div.header-gallery
+{
+  float: left;
+  width: 100%;
+  height: 70px;
+  background-color:grey;
+  font-family: Verdana;
+  font-size: 50px;
+}
+
+div.box1
+{
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-color:none;
+  font-family: Verdana;
+  font-size: 13px;
+  color: beige;
+}
+
+div.box2
+{
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-color:none;
+  font-family: Verdana;
+  font-size: 13px;
+  color: beige;
+}
+
+div.box3
+{
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-color:none;
+  font-family: Verdana;
+  font-size: 13px;
+  color: beige;
+}
+
+div.box4
+{
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-color:none;
+  font-family: Verdana;
+  font-size: 13px;
+  color: beige;
+}
+
+div.gap
+{
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color: none;
+}
+
+div.map
+{
+  font-size: 25px;
+  font-family: Verdana;
+  color: aliceblue;
+}
+
+div.header-block
+{
+  float: left;
+  width: 100%;
+  height: 70px;
+  background-color:bisque;
+  font-family: Verdana;
+  font-size: 50px;
+  color: black;
+}
+
+div.endofpage
+{
+  float: left;
+  width: 100%;
+  height: 20px;
+  background-color:black;
+  font-family: Georgia;
+  font-size: 10px;
+  color: white;
+}
+
+div.caption-biodata
+{
+  width: 50%;
+  height: 30px;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  color: white;
+}
+
+div.slider-family
+{
+  width: 88%;
+  height: 70px;
+  background-color: none;
+  font-family: Verdana;
+  font-size: 18px;
+  color: white;
+}
+
+div.favourite-1
+{
+  float: left;
+  width: 25%;
+  height: 50px;
+  background-color: none;
+  font-family: Verdana;
+  font-size: 15px;
+  color: white;
+}
+
+div.favourite-2
+{
+  float: left;
+  width: 25%;
+  height: 50px;
+  background-color: none;
+  font-family: Verdana;
+  font-size: 15px;
+  color: white;
+}
+
+div.favourite-3
+{
+  float: left;
+  width: 25%;
+  height: 50px;
+  background-color: none;
+  font-family: Verdana;
+  font-size: 15px;
+  color: white;
+}
+
+div.favourite-4
+{
+  float: left;
+  width: 25%;
+  height: 50px;
+  background-color: none;
+  font-family: Verdana;
+  font-size: 15px;
+  color: white;
+}
+
+div.music-intro
+{
+  background-color: none;
+  font-family: 'Times New Roman';
+  font-size: 12px;
+  color: rgb(161, 158, 153);
+}
+
+div.warning
+{
+  font-size: 15pt;
+  font-family: Arial;
+  color: rgb(190, 30, 30);
+}
+
+div.underwarning
+{
+  font-size: 12pt;
+  font-family: Arial;
+  color: black;
+}
+
